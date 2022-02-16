@@ -1,0 +1,34 @@
+.main {
+    text-align: center;
+    margin: 50px;
+}
+
+.placa {
+    background-color: #006eb0;
+    color: white;
+    font-weight: 800;
+    font-size: 2.5rem;
+    width: 500px;
+    height: 250px;
+    border: 7px solid white;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+}
+
+.placa::after {
+    content: '';
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  right: -12px;
+  bottom: -12px;
+  background: #006eb0;
+  z-index: -1;
+  border-radius: 12px;
+}
+
+.data {
+    margin: 50px;
+}

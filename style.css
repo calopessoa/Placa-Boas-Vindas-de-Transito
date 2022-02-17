@@ -18,13 +18,13 @@
 }
 
 .placa::after {
-    content: '';
+  content: '';
   position: absolute;
   top: -12px;
   left: -12px;
   right: -12px;
   bottom: -12px;
-  background: #006eb0;
+  background-color: #006eb0;
   z-index: -1;
   border-radius: 12px;
 }
